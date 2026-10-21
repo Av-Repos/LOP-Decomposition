@@ -2,12 +2,14 @@
 
 This repository provides an efficient implementation of the Fourier transform (FT)–based instance decomposition of Linear Ordering Problem (LOP) instances. Given a LOP instance with the format
 
+```text
 n
 b_11 ...  b_1n
 .    .    .
 .    .    .
 .    .    .
 b_n1 ...  b_nn
+```
 
 the software generates two sub-instances corresponding to the individual Fourier components of the original objective function:
 
